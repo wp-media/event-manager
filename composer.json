@@ -31,13 +31,14 @@
     },
     "autoload": {
         "psr-4": {
-            "WP_Media\\EventManager\\": "src/"
+            "WPMedia\\EventManager\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WP_Media\\EventManager\\Tests\\Unit\\": "test/Unit",
-            "WP_Media\\EventManager\\Tests\\Integration\\": "test/Integration"
+            "WPMedia\\EventManager\\Tests\\Unit\\": "tests/Unit",
+            "WPMedia\\EventManager\\Tests\\Integration\\": "tests/Integration",
+            "WPMedia\\EventManager\\Tests\\Fixtures\\": "tests/Fixtures"
         }
     },
     "scripts": {
